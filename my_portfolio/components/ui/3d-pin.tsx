@@ -43,7 +43,9 @@ export const PinContainer = ({
                 }}
                 className="absolute left-1/2 top-1/2 ml-[0.09375rem] mt-4 -translate-x-1/2 -translate-y-1/2"
             >
-                <div
+                <a
+                    href={href}
+                    target='_blank'
                     style={{
                         transform: transform,
                     }}
@@ -52,7 +54,7 @@ export const PinContainer = ({
                     <div className={cn(' relative z-50 ', className)}>
                         {children}
                     </div>
-                </div>
+                </a>
             </div>
             <PinPerspective title={title} href={href} />
         </div>

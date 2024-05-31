@@ -3,7 +3,6 @@ import React from 'react';
 
 import { AnimatePresence, motion } from 'framer-motion';
 import { CanvasRevealEffect } from '@/components/ui/CanvasRevealEffect';
-import { div } from 'three/examples/jsm/nodes/Nodes.js';
 
 const Approach = () => {
     return (
@@ -14,11 +13,11 @@ const Approach = () => {
             <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
                 <Card
                     description="We'll collaborate to map-out your website's goals target audience and key functionalities. We'll discuss things like site structure, navigation and content requirements"
-                    title="Planning and Development"
+                    title="Planning and Research"
                     icon={<AceternityIcon order="Phase 1" />}
                 >
                     <CanvasRevealEffect
-                        animationSpeed={5.1}
+                        animationSpeed={3}
                         containerClassName="bg-emerald-900"
                     />
                 </Card>
@@ -40,7 +39,7 @@ const Approach = () => {
                 </Card>
                 <Card
                     description="Your website will be launched for millions of users to access. The deployment, monitoring and upgradation of the website will be done at your preferred times"
-                    title="Development and Launch"
+                    title="Finalization and Launch"
                     icon={<AceternityIcon order="Phase 3" />}
                 >
                     <CanvasRevealEffect

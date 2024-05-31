@@ -38,7 +38,7 @@ const Hero = () => {
                         Hi, I&apos;m Vaibhav, a NextJS developer based in
                         Gurugram, India{' '}
                     </p>
-                    <a href="#aboutMe">
+                    <a href="#about">
                         {' '}
                         <MagicButton
                             title="Show my work"
