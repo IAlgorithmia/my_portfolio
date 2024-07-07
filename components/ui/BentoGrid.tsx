@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { cn } from '@/utils/cn';
 import { BackgroundGradientAnimation } from './GradientBg';
@@ -54,10 +54,13 @@ export const BentoGridItem = ({
     spareImg?: string;
 }) => {
     const [copied, setCopied] = useState(false);
-    const handleCopy = () =>{
-        navigator.clipboard.writeText('vaibhavsh.2k3@gmail.com');
+    const handleCopy = () => {
+        const link = document.createElement('a');
+        link.href = '/Resume_Vaibhav.pdf';
+        link.download = 'Resume_Vaibhav.pdf';
+        link.click();
         setCopied(true);
-    }
+    };
     return (
         <div
             className={cn(
@@ -78,7 +81,9 @@ export const BentoGridItem = ({
                             alt={img}
                             className={cn(
                                 imgClassName,
-                                'object-cover, object-center, scale-125'
+                                id === 1 &&
+                                    'rounded-2xl invert absolute top-8 left-6',
+                                id === 5 && 'blur-[1px] scale-150'
                             )}
                         />
                     )}
@@ -99,9 +104,7 @@ export const BentoGridItem = ({
                     )}
                 </div>
                 {id === 6 && (
-                    <BackgroundGradientAnimation>
-                        
-                    </BackgroundGradientAnimation>
+                    <BackgroundGradientAnimation></BackgroundGradientAnimation>
                 )}
 
                 <div
@@ -122,7 +125,6 @@ export const BentoGridItem = ({
                     {id == 3 && (
                         <div className="flex gap-1 lg:gap-5 w-fit absolute top-[0.001rem] right-2">
                             <div className="flex flex-col gap-3 lg:gap-4">
-                                <span className="py-2 px-3 rounded-lg text-center bg-[#10132E]"></span>
                                 {['ReactJS', 'NextJS', 'Typescript'].map(
                                     (item) => (
                                         <span
@@ -143,7 +145,6 @@ export const BentoGridItem = ({
                                         {item}
                                     </span>
                                 ))}
-                                <span className="py-4 px-3 rounded-lg text-center bg-[#10132E]"></span>
                             </div>
                         </div>
                     )}
@@ -163,7 +164,17 @@ export const BentoGridItem = ({
                                     }}
                                 ></Lottie>
                             </div>
-                            <MagicButton title={copied ? 'Email Copied' : 'Copy My Email'} icon={<IoCopyOutline/>} position='left' otherClasses='!bg-[#161a31]' handleClick={handleCopy}></MagicButton>
+                            <MagicButton
+                                title={
+                                    copied
+                                        ? 'Resume Downloaded'
+                                        : 'Download Resume'
+                                }
+                                icon={<IoCopyOutline />}
+                                position="left"
+                                otherClasses="!bg-[#161a31]"
+                                handleClick={handleCopy}
+                            ></MagicButton>
                         </div>
                     )}
                 </div>

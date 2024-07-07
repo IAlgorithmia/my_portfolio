@@ -104,23 +104,23 @@ export const InfiniteMovingCards = ({
                         }}
                         key={idx}
                     >
-                        <blockquote>
+                        <blockquote className='flex justify-center items-center'>
                             <div
                                 aria-hidden="true"
                                 className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
                             ></div>
-                            <span className=" relative z-20 text-base md:text-lg leading-[1.6] text-white font-normal">
+                            <span className="text-center relative z-20 text-xl md:text-3xl leading-[1.6] text-white font-normal">
                                 {item.quote}
                             </span>
-                            <div className="relative z-20 mt-6 flex flex-row items-center">
+                            <div className="ml-5 relative z-20 mt-6 flex flex-row items-center justify-center">
                                 <span className="flex flex-col gap-1">
-                                    <div className='me-3'>
-                                        <img src="/profile.svg" alt="profile" />
+                                    <div className='flex items-center justify-center'>
+                                        <img className='rounded-lg' src="/profile.svg" alt="profile" height={120} width={120}/>
                                     </div>
-                                    <span className=" text-sm leading-[1.6] text-white font-bold">
+                                    <span className="text-lg leading-[1.6] text-white text-center font-bold">
                                         {item.name}
                                     </span>
-                                    <span className=" text-sm leading-[1.6] text-white-200 font-normal">
+                                    <span className="text-center text-base leading-[1.6] text-white-200 font-normal">
                                         {item.title}
                                     </span>
                                 </span>

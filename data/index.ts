@@ -1,14 +1,14 @@
 export const navItems = [
     { name: 'About', link: '#about' },
     { name: 'Projects', link: '#projects' },
-    { name: 'Testimonials', link: '#testimonials' },
+    { name: 'Achievements', link: '#testimonials' },
     { name: 'Contact', link: '#contact' },
 ];
 
 export const gridItems = [
     {
         id: 1,
-        title: 'I prioritize client collaboration, fostering open communication ',
+        title: 'I value collaboration and prioritize open communication ',
         description: '',
         className: 'lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]',
         imgClassName: 'w-full h-full',
@@ -18,7 +18,7 @@ export const gridItems = [
     },
     {
         id: 2,
-        title: "I'm very flexible with time zone communications",
+        title: "I'm adaptable with work hours and open to remote opportunities",
         description: '',
         className: 'lg:col-span-2 md:col-span-3 md:row-span-2',
         imgClassName: '',
@@ -29,7 +29,7 @@ export const gridItems = [
     {
         id: 3,
         title: 'My tech stack',
-        description: 'I constantly try to improve',
+        description: "I'm constantly UpSkilling ",
         className: 'lg:col-span-2 md:col-span-3 md:row-span-2',
         imgClassName: '',
         titleClassName: 'justify-center',
@@ -38,7 +38,7 @@ export const gridItems = [
     },
     {
         id: 4,
-        title: 'Tech enthusiast with a passion for development.',
+        title: 'I program with passion, creativity and the desire to constantly improve.',
         description: '',
         className: 'lg:col-span-2 md:col-span-3 md:row-span-1',
         imgClassName: '',
@@ -49,7 +49,7 @@ export const gridItems = [
 
     {
         id: 5,
-        title: 'Currently building a Net Banking Platform',
+        title: "Currently pushing my Competitive Programming to Perfection",
         description: 'The Inside Scoop',
         className: 'md:col-span-3 md:row-span-2',
         imgClassName: 'absolute right-0 bottom-0 md:w-96 w-60',
@@ -59,7 +59,7 @@ export const gridItems = [
     },
     {
         id: 6,
-        title: 'Do you want to start a project together?',
+        title: 'Checkout my resume!',
         description: '',
         className: 'lg:col-span-2 md:col-span-3 md:row-span-1',
         imgClassName: '',
@@ -72,17 +72,9 @@ export const gridItems = [
 export const projects = [
     {
         id: 1,
-        title: '3D Solar System Planets to Explore',
-        des: 'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
-        img: '/p1.svg',
-        iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/fm.svg'],
-        link: 'https://github.com/Vaibhavhajdin?tab=repositories',
-    },
-    {
-        id: 2,
-        title: 'Yoom - Video Conferencing App',
-        des: 'Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.',
-        img: '/p2.svg',
+        title: 'Byte Bridge - Video Conferencing App',
+        des: 'Simplify your video conferencing experience with Byte Bridge. Seamlessly connect with colleagues and friends.',
+        img: '/p3.svg',
         iconLists: [
             '/next.svg',
             '/tail.svg',
@@ -90,57 +82,48 @@ export const projects = [
             '/stream.svg',
             '/c.svg',
         ],
-        link: 'https://github.com/Vaibhavhajdin/zoom-clone',
+        link: 'https://byte-bridge-omega.vercel.app/',
     },
     {
-        id: 3,
-        title: 'AI Image SaaS - Canva Application',
-        des: 'A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.',
-        img: '/p3.svg',
-        iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/c.svg'],
-        link: 'https://github.com/Vaibhavhajdin/ai_saas_app',
-    },
-    {
-        id: 4,
-        title: 'Animated Apple Iphone 3D Website',
-        des: 'Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..',
-        img: '/p4.svg',
-        iconLists: [
-            '/next.svg',
-            '/tail.svg',
-            '/ts.svg',
-            '/three.svg',
-            '/gsap.svg',
-        ],
-        link: 'https://github.com/Vaibhavhajdin/iphone',
+        id: 2,
+        title: 'Byte Bridge - World Wide Banking Solution',
+        des: 'A robust banking app that helps you in simplifying personal money and asset management.',
+        img: '/p2.svg',
+        iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/plaid.svg', '/c.svg'],
+        link: 'https://byte-bank-sage.vercel.app/',
     },
 ];
 
 export const endorsements = [
     {
-        quote: "Collaborating with Vaibhav was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Vaibhav's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Vaibhav is the ideal partner.",
-        name: 'Michael Johnson',
-        title: 'Director of AlphaStream Technologies',
+        quote: 'Achieved a rank of 5036 in JEE Mains 2022 examination out of Tens of Lakhs of Competitors',
+        name: 'NTA',
+        title: 'Mathematics Physics Chemistry',
     },
     {
-        quote: "Collaborating with Vaibhav was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Vaibhav's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Vaibhav is the ideal partner.",
-        name: 'Michael Johnson',
-        title: 'Director of AlphaStream Technologies',
+        quote: 'Honoured as the District Topper in 12th Standard - Final year High School in CBSE 2022 after scoring 97.8 Percentage Marks',
+        name: 'CBSE',
+        title: 'Computer Science Mathematics Physics Biology',
     },
     {
-        quote: "Collaborating with Vaibhav was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Vaibhav's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Vaibhav is the ideal partner.",
-        name: 'Michael Johnson',
-        title: 'Director of AlphaStream Technologies',
+        quote: 'Joined NIT Kurukshetra to pursue Bachelors of Technology in Computer Science and Engineering, maintaining a CGPA of 9.5 overall',
+        name: 'NIT Kkr',
+        title: 'Computer Science',
     },
     {
-        quote: "Collaborating with Vaibhav was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Vaibhav's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Vaibhav is the ideal partner.",
-        name: 'Michael Johnson',
-        title: 'Director of AlphaStream Technologies',
+        quote: 'Reached high ranks on platforms like Leetcode, Codeforces and Codechef along with builing complex full stack projects.',
+        name: 'Coding and Development',
+        title: 'NextJS C++',
     },
     {
-        quote: "Collaborating with Vaibhav was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Vaibhav's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Vaibhav is the ideal partner.",
-        name: 'Michael Johnson',
-        title: 'Director of AlphaStream Technologies',
+        quote: 'Secured a rank of 3000 in KVPY-SX 2022',
+        name: 'IISc Bengaluru',
+        title: 'Mathematics Physics Aptitude',
+    },
+    {
+        quote: 'Secured a rank of 8000 in JEE Adv 2022',
+        name: 'IITs',
+        title: 'Mathematics Physics Aptitude',
     },
 ];
 
@@ -180,31 +163,35 @@ export const companies = [
 export const workExperience = [
     {
         id: 1,
-        title: 'Frontend Engineer Intern',
-        desc: 'Assisted in the development of a web-based platform using React.js, enhancing interactivity.',
+        title: 'LeetCode',
+        desc: '500+ Problems Solved, 15+ Contests, Top 10% Globally',
         className: 'md:col-span-2',
         thumbnail: '/exp1.svg',
+        hyperlink: 'https://leetcode.com/u/VaibhavSh2k3/',
     },
     {
         id: 2,
-        title: 'Mobile App Dev',
-        desc: 'Designed and developed mobile app for both iOS & Android platforms using React Native.',
+        title: 'CodeForces',
+        desc: '150+ Problems Solved, 10+ Contests',
         className: 'md:col-span-2', // change to md:col-span-2
         thumbnail: '/exp2.svg',
+        hyperlink: 'https://codeforces.com/profile/Codrrr',
     },
     {
         id: 3,
-        title: 'Freelance App Dev Project',
-        desc: 'Led the dev of a mobile app for a client, from initial concept to deployment on app stores.',
+        title: 'CodeChef',
+        desc: '100+ Problems Solved, 10+ Contests',
         className: 'md:col-span-2', // change to md:col-span-2
         thumbnail: '/exp3.svg',
+        hyperlink: 'https://www.codechef.com/users/vaibhavsh2k3',
     },
     {
         id: 4,
-        title: 'Lead Frontend Developer',
-        desc: 'Developed and maintained user-facing features using modern frontend technologies.',
+        title: 'LinkedIn',
+        desc: '3000+ Followers and Connections',
         className: 'md:col-span-2',
         thumbnail: '/exp4.svg',
+        hyperlink: 'https://www.linkedin.com/in/vaibhav-sharma-22816618a/',
     },
 ];
 
@@ -212,16 +199,16 @@ export const socialMedia = [
     {
         id: 1,
         img: '/git.svg',
-        link:''
+        link: 'https://github.com/IAlgorithmia',
     },
     {
         id: 2,
         img: '/twit.svg',
-        link:''
+        link: 'https://x.com/VaibhavSh2k3',
     },
     {
         id: 3,
         img: '/link.svg',
-        link:''
+        link: 'https://www.linkedin.com/in/vaibhav-sharma-22816618a/',
     },
 ];

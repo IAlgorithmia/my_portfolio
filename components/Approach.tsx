@@ -8,11 +8,11 @@ const Approach = () => {
     return (
         <section className="w-full py-20 ">
             <h1 className="heading">
-                My <span className="text-purple">Approach</span>
+                My approach towards <span className="text-purple">Software Development</span>
             </h1>
             <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
                 <Card
-                    description="We'll collaborate to map-out your website's goals target audience and key functionalities. We'll discuss things like site structure, navigation and content requirements"
+                    description="We'll collaborate to map-out your software's goals target audience and key functionalities. We'll discuss things like site structure, navigation and content requirements"
                     title="Planning and Research"
                     icon={<AceternityIcon order="Phase 1" />}
                 >
@@ -38,7 +38,7 @@ const Approach = () => {
                     
                 </Card>
                 <Card
-                    description="Your website will be launched for millions of users to access. The deployment, monitoring and upgradation of the website will be done at your preferred times"
+                    description="Your software will be launched for millions of users to access. The deployment, monitoring and upgradation of the software will be done at your preferred times"
                     title="Finalization and Launch"
                     icon={<AceternityIcon order="Phase 3" />}
                 >
