@@ -13,7 +13,7 @@ export const gridItems = [
         className: 'lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]',
         imgClassName: 'w-full h-full',
         titleClassName: 'justify-end',
-        img: '/b1.svg',
+        img: '/b1.jpg',
         spareImg: '',
     },
     {
@@ -54,7 +54,7 @@ export const gridItems = [
         className: 'md:col-span-3 md:row-span-2',
         imgClassName: 'absolute right-0 bottom-0 md:w-96 w-60',
         titleClassName: 'justify-center md:justify-start lg:justify-center',
-        img: '/b5.svg',
+        img: '/b5.jpg',
         spareImg: '/grid.svg',
     },
     {
@@ -74,7 +74,7 @@ export const projects = [
         id: 1,
         title: 'Byte Bridge - Video Conferencing App',
         des: 'Simplify your video conferencing experience with Byte Bridge. Seamlessly connect with colleagues and friends.',
-        img: '/p3.svg',
+        img: '/p3.jpg',
         iconLists: [
             '/next.svg',
             '/tail.svg',
@@ -88,7 +88,7 @@ export const projects = [
         id: 2,
         title: 'Byte Bridge - World Wide Banking Solution',
         des: 'A robust banking app that helps you in simplifying personal money and asset management.',
-        img: '/p2.svg',
+        img: '/p2.jpg',
         iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/plaid.svg', '/c.svg'],
         link: 'https://byte-bank-sage.vercel.app/',
     },
@@ -166,7 +166,7 @@ export const workExperience = [
         title: 'LeetCode',
         desc: '500+ Problems Solved, 15+ Contests, Top 10% Globally',
         className: 'md:col-span-2',
-        thumbnail: '/exp1.svg',
+        thumbnail: '/exp1.jpg',
         hyperlink: 'https://leetcode.com/u/VaibhavSh2k3/',
     },
     {
@@ -174,7 +174,7 @@ export const workExperience = [
         title: 'CodeForces',
         desc: '150+ Problems Solved, 10+ Contests',
         className: 'md:col-span-2', // change to md:col-span-2
-        thumbnail: '/exp2.svg',
+        thumbnail: '/exp2.jpg',
         hyperlink: 'https://codeforces.com/profile/Codrrr',
     },
     {
@@ -182,7 +182,7 @@ export const workExperience = [
         title: 'CodeChef',
         desc: '100+ Problems Solved, 10+ Contests',
         className: 'md:col-span-2', // change to md:col-span-2
-        thumbnail: '/exp3.svg',
+        thumbnail: '/exp3.jpg',
         hyperlink: 'https://www.codechef.com/users/vaibhavsh2k3',
     },
     {
@@ -190,7 +190,7 @@ export const workExperience = [
         title: 'LinkedIn',
         desc: '3000+ Followers and Connections',
         className: 'md:col-span-2',
-        thumbnail: '/exp4.svg',
+        thumbnail: '/exp4.jpg',
         hyperlink: 'https://www.linkedin.com/in/vaibhav-sharma-22816618a/',
     },
 ];

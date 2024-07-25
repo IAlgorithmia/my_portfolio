@@ -115,7 +115,7 @@ export const InfiniteMovingCards = ({
                             <div className="ml-5 relative z-20 mt-6 flex flex-row items-center justify-center">
                                 <span className="flex flex-col gap-1">
                                     <div className='flex items-center justify-center'>
-                                        <img className='rounded-lg' src="/profile.svg" alt="profile" height={120} width={120}/>
+                                        <img className='rounded-lg' src="/profile.jpg" alt="profile" height={120} width={120}/>
                                     </div>
                                     <span className="text-lg leading-[1.6] text-white text-center font-bold">
                                         {item.name}

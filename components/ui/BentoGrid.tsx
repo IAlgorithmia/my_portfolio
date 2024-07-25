@@ -53,6 +53,7 @@ export const BentoGridItem = ({
     titleClassName?: string;
     spareImg?: string;
 }) => {
+    console.log(img)
     const [copied, setCopied] = useState(false);
     const handleCopy = () => {
         const link = document.createElement('a');
@@ -78,7 +79,6 @@ export const BentoGridItem = ({
                     {img && (
                         <img
                             src={img}
-                            alt={img}
                             className={cn(
                                 imgClassName,
                                 id === 1 &&
