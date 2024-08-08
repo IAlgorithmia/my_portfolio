@@ -89,7 +89,7 @@ export const projects = [
         title: 'Byte Bridge - World Wide Banking Solution',
         des: 'A robust banking app that helps you in simplifying personal money and asset management.',
         img: '/p2.jpg',
-        iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/plaid.svg', '/c.svg'],
+        iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/plaid.jpg', '/c.svg'],
         link: 'https://byte-bank-sage.vercel.app/',
     },
 ];
@@ -101,7 +101,7 @@ export const endorsements = [
         title: 'Mathematics Physics Chemistry',
     },
     {
-        quote: 'Honoured as the District Topper in 12th Standard - Final year High School in CBSE 2022 after scoring 97.8 Percentage Marks',
+        quote: 'Honoured as the District Topper in 12th Standard - Senior High School in CBSE 2022 after scoring 97.8 Percentage Marks',
         name: 'CBSE',
         title: 'Computer Science Mathematics Physics Biology',
     },
@@ -111,12 +111,12 @@ export const endorsements = [
         title: 'Computer Science',
     },
     {
-        quote: 'Reached high ranks on platforms like Leetcode, Codeforces and Codechef along with builing complex full stack projects.',
+        quote: 'Knight (1850+) on LeetCode, Pupil (1200+) on CodeForces, 3 Star (1600+) on CodeChef, contributing in open-source and building comprehensive full stack projects.',
         name: 'Coding and Development',
         title: 'NextJS C++',
     },
     {
-        quote: 'Secured a rank of 3000 in KVPY-SX 2022',
+        quote: 'Secured a rank of 4000 in KVPY-SX 2022',
         name: 'IISc Bengaluru',
         title: 'Mathematics Physics Aptitude',
     },
